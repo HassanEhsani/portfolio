@@ -77,17 +77,35 @@
 /* End Banner Area */
 
 /* Start About Area */
-.site-main .about-area{
+.site-main .about-area {
     padding: 8rem 5rem;
 }
 
-.site-main .about-area .about-title h2 > span{
- display: block;
- font: normal bold 49px/ 60px var(--roboto);
- letter-spacing: 21px;
+.site-main .about-area .about-title h2>span {
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
 }
 
-.site-main .about-area .about-title .paragraph > p{
+.site-main .about-area .about-title .paragraph>p {
     padding: 1rem 0;
 }
+
 /* End About Area */
+
+/* Start Brand Area */
+.site-main .brand-area {
+    padding: 1rem 12rem;
+    margin-bottom: 3rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4>.single-brand {
+    border: 1px solid var(--border-color);
+}
+
+/* End Brand Area */
