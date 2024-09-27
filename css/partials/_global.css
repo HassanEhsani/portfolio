@@ -51,5 +51,7 @@
 p.para{
     color: var(--text-color);
     font: normal 400 17px/ 25px var(--roboto);
-    text-align: center;
+}
+.font-roboto{
+    font-family: var(--roboto);
 }
